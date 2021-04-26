@@ -4,9 +4,9 @@
 <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
 {% block title -%}
 {% if title %}
-	<title>Про Flask - {{title}}</title>
+	<title>PetBlog - {{title}}</title>
 {% else %}
-	<title>Про Flask</title>
+	<title>PetBlog</title>
 {% endif %}
 {% endblock %}
 </head>
@@ -24,7 +24,7 @@
 	{% if title -%}
 <h1>{{title}}</h1>
 	{% else -%}
-<h1>Про Flask</h1>
+<h1>PetBlog</h1>
 	{% endif -%}
 {% endblock -%}
 </div>
